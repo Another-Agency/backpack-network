@@ -12,7 +12,6 @@ export default {
   darkMode: "class",
   theme: {
     extend: {
-      // https://vercel.com/design/color
       colors: {
         bl_steel: {
           ualert: "#FF00C7",

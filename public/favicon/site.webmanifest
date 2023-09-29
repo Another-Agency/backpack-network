@@ -1,14 +1,14 @@
 {
-  "name": "Next.js",
-  "short_name": "Next.js",
+  "name": "Backpack",
+  "short_name": "Backpack",
   "icons": [
     {
-      "src": "/favicon/android-chrome-192x192.png",
+      "src": "/favicon/favicon-36x36.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/favicon/android-chrome-512x512.png",
+      "src": "/favicon/favicon-36x36.png",
       "sizes": "512x512",
       "type": "image/png"
     }

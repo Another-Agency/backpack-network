@@ -1,14 +1,35 @@
 import "#/styles/globals.css";
 import { Metadata } from "next";
+import Head from "next/head";
 import TopBar from "./components/topBar";
 
 export const metadata: Metadata = {
-  title: {
-    default: "Next.js App Router",
-    template: "%s | Next.js App Router",
+  title: "Backpack",
+  description: "Self directed money orchestration",
+  openGraph: {
+    type: "website",
+    url: "https://backpack.network",
+    title: "Backpack",
+    description: "Self directed money orchestration",
+    siteName: "Backpack",
+    images: [
+      {
+        url: "/favicon/favicon-36x36.png",
+        width: 36,
+        height: 36,
+        alt: "Backpack Favicon",
+      },
+    ],
   },
-  description:
-    "Backpack is a way to orchestrate your money. Self custody, so you are in control.",
+  twitter: {
+    card: "summary_large_image",
+    // card: "summary_large_image"
+    // site: "@site"
+    // creator: "@creator"
+    // title: "My Website"
+    // description: "My Website Description"
+    // image: "https://example.com/og.png"
+  },
 };
 
 export default function RootLayout({
@@ -22,6 +43,9 @@ export default function RootLayout({
       className="[color-scheme:dark]"
       style={{ fontFamily: "Space Mono, sans-serif" }}
     >
+      <Head>
+        <link rel="icon" href="/favicon/favicon.ico" />
+      </Head>
       <body className="bg-steel w-screen h-screen">
         <div className="mx-auto max-w-10xl space-y-8">
           <div className="grid grid-cols-1">
