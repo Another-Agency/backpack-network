@@ -1,6 +1,6 @@
 export default function LandingCard() {
   return (
-    <div className="px-2 sm:px-20 md:px-36 pt-24 pb-20">
+    <div className=" pt-12 pb-8 px-2 sm:pt-24 sm:pb-20 sm:px-20 md:px-36">
       <div className="rounded-3xl bg-vc-border-gradient shadow-lg shadow-black/20">
         <div className="w-auto h-auto p-4 rounded-3xl bg-bl_steel-charyo text-bl_steel-notpurp">
           <div className="h-96 rounded-lg bg-vc-border-gradient shadow-lg shadow-black/40">
