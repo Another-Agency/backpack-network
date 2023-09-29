@@ -13,6 +13,9 @@ export default function LandingCard() {
                   Backpack is a way to orchestrate your money. Self custody, so
                   you are in control.
                 </p>
+                <h1 className="p-4 pt-20 justify-center text-center text-bl_steel-charyo font-semibold">
+                  ** MORE COMING SOON-ISH **
+                </h1>
               </div>
             </div>
           </div>
