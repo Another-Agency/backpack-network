@@ -1,10 +1,10 @@
 import "#/styles/globals.css";
-import Analytics from "@vercel/analytics";
 import { Metadata } from "next";
 import Head from "next/head";
 import TopBar from "./components/topBar";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://backpack.network"),
   title: "Backpack",
   description: "Self directed money orchestration",
   openGraph: {
@@ -52,7 +52,6 @@ export default function RootLayout({
           <div className="grid grid-cols-1">
             <TopBar />
             {children}
-            <Analytics />
           </div>
         </div>
       </body>
