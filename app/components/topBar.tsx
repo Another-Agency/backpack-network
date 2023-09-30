@@ -22,7 +22,7 @@ export default function TopBar() {
           </Link>
           <Link href={"/"}>
             <h1 className="text-center self-center text-bl_steel-notpurp">
-              Agent
+              Agent Poly🦜
             </h1>
           </Link>
         </div>
