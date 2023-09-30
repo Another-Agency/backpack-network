@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     siteName: "Backpack",
     images: [
       {
-        url: "/favicon/favicon-36x36.png",
+        url: "/favicon/favicon.ico",
         width: 36,
         height: 36,
         alt: "Backpack Favicon",
