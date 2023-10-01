@@ -1,4 +1,5 @@
 import "#/styles/globals.css";
+import DarkModeManager from "#/utils/darkModeManager";
 import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import Head from "next/head";
@@ -49,13 +50,15 @@ export default function RootLayout({
         <link rel="icon" href="/favicon/favicon.ico" />
       </Head>
       <body className="bg-steel w-screen h-screen">
-        <div className="mx-auto max-w-10xl space-y-8">
-          <div className="grid grid-cols-1">
-            <TopBar />
-            {children}
-            <Analytics />
+        <DarkModeManager>
+          <div className="mx-auto max-w-10xl space-y-8">
+            <div className="grid grid-cols-1">
+              <TopBar />
+              {children}
+              <Analytics />
+            </div>
           </div>
-        </div>
+        </DarkModeManager>
       </body>
     </html>
   );

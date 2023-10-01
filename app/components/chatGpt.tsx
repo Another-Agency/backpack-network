@@ -50,20 +50,21 @@ export default function Chat({ isChatOpen, setChatOpen }: ChatProps) {
               }}
             >
               <input
-                className="grid col-span-2 rounded-md p-2 text-bl_steel-charyo mb-2 w-full"
+                className="grid col-span-2 rounded-md p-2 text-bl_steel-charyo mb-2 w-full dark:bg-bl_steel-notpurp dark:text-bl_steel-charyo dark:border-bl_steel-ualert border-solid border-2 border-bl_steel-ualert"
                 value={input}
                 onChange={handleInputChange}
                 placeholder="Poly wanna calculator..."
               />
               <button
+                type="button"
                 className="grid col-span-1 border-solid border-2 border-bl_steel-notpurp text-bl_steel-notpurp p-2 rounded-md w-full hover:bg-bl_steel-notpurp hover:text-bl_steel-charyo transition-colors duration-200"
                 onClick={() => setChatOpen(false)}
               >
                 Close
               </button>
               <button
-                className="grid col-span-1 border-solid border-2 border-bl_steel-notpurp text-bl_steel-notpurp p-2 rounded-md w-full hover:bg-bl_steel-notpurp hover:text-bl_steel-charyo transition-colors duration-200"
                 type="submit"
+                className="grid col-span-1 border-solid border-2 border-bl_steel-notpurp text-bl_steel-notpurp p-2 rounded-md w-full hover:bg-bl_steel-notpurp hover:text-bl_steel-charyo transition-colors duration-200"
               >
                 Send
               </button>
