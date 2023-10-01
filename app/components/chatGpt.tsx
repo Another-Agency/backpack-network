@@ -44,7 +44,10 @@ export default function Chat({ isChatOpen, setChatOpen }: ChatProps) {
             </div>
             <form
               className="grid grid-cols-2 gap-y-2 gap-x-4"
-              onSubmit={handleSubmit}
+              onSubmit={(event) => {
+                event.preventDefault();
+                handleSubmit(event);
+              }}
             >
               <input
                 className="grid col-span-2 rounded-md p-2 text-bl_steel-charyo mb-2 w-full"
