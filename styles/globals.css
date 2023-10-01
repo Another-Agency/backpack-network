@@ -8,3 +8,30 @@
   font-weight: normal;
   font-style: normal;
 }
+
+.cust-scrollbar::-webkit-scrollbar {
+  @apply w-2;
+}
+
+.cust-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+  margin-left: 0 0.5rem;
+  margin-right: 0 0.5rem;
+}
+
+.cust-scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-bl_steel-bluish rounded-full;
+}
+
+.cust-scrollbar::-webkit-scrollbar-thumb:hover {
+  @apply bg-gray-700;
+}
+
+.cust-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #888 transparent;
+}
+
+.cust-scrollbar:hover {
+  scrollbar-color: #555 transparent;
+}

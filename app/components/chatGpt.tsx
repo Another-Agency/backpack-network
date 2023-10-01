@@ -29,13 +29,15 @@ export default function Chat({ isChatOpen, setChatOpen }: ChatProps) {
       className="fixed inset-0 grid aspect-auto items-center justify-center z-50"
     >
       <div className="rounded-3xl bg-vc-border-gradient shadow-lg shadow-black/40 max-w-screen-md mx-auto p-4  ">
-        <div className="h-96 rounded-lg bg-vc-border-gradient shadow-lg shadow-black/90 overflow-auto">
+        <div className="h-96 rounded-lg bg-vc-border-gradient shadow-lg shadow-black/90 overflow-auto cust-scrollbar">
           <div className="flex flex-col justify-between h-full">
             <div>
               {messages.map((m, index) => (
                 <div className="p-2 text-bl_steel-notpurp" key={m.id}>
                   {m.role === "user" ? "User: " : "AI: "}
-                  {m.content}
+                  <pre className=" text-white p-2 rounded overflow-auto whitespace-pre-wrap">
+                    <code>{m.content}</code>
+                  </pre>
                   {index === messages.length - 1 ? (
                     <div ref={messagesEndRef} />
                   ) : null}
@@ -50,7 +52,7 @@ export default function Chat({ isChatOpen, setChatOpen }: ChatProps) {
               }}
             >
               <input
-                className="grid col-span-2 rounded-md p-2 text-bl_steel-charyo mb-2 w-full dark:bg-bl_steel-notpurp dark:text-bl_steel-charyo dark:border-bl_steel-ualert border-solid border-2 border-bl_steel-ualert"
+                className="grid col-span-2 outline-none rounded-md p-2 text-bl_steel-charyo mb-2 w-full dark:bg-bl_steel-notpurp dark:text-bl_steel-charyo dark:border-bl_steel-ualert border-solid border-2 border-bl_steel-ualert"
                 value={input}
                 onChange={handleInputChange}
                 placeholder="Poly wanna calculator..."
