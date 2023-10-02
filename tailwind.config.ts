@@ -23,8 +23,8 @@ export default {
       },
       backgroundImage: ({ theme }) => ({
         "vc-border-gradient": `radial-gradient(at left top, ${theme(
-          "colors.gray.500"
-        )}, 50px, ${theme("colors.gray.800")} 50%)`,
+          "colors.bl_steel.graish"
+        )}, 50px, ${theme("colors.bl_steel.charyo")} 50%)`,
         steel: `linear-gradient(90deg, #1f1f1f, #f9f8fc, #1f1f1f)`,
       }),
 

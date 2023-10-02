@@ -5,33 +5,33 @@ export default function LandingCButtons() {
     <div className="grid grid-cols-1 grid-rows-4 px-20 gap-2 sm:grid-cols-2 sm:grid-rows-2 sm:gap-4 md:grid-cols-4  md:gap-4 ">
       <Link
         href="https://checkout.mybackpack.app/"
-        className="col-span-1 mx-0 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30"
+        className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
-        <div className=" p-3 rounded-md bg-bl_steel-charyo text-bl_steel-notpurp">
+        <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
           I/O Ramps
         </div>
       </Link>
       <Link
         href="https://www.circle-jerk.me/"
-        className="col-span-1 mx-0 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30"
+        className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
-        <div className="p-3 rounded-md bg-bl_steel-charyo text-bl_steel-notpurp">
+        <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
           Stable Swap
         </div>
       </Link>
       <Link
         href="/otc"
-        className="col-span-1 mx-0 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30"
+        className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
-        <div className="p-3 rounded-md bg-bl_steel-charyo text-bl_steel-notpurp">
+        <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
           OTC
         </div>
       </Link>
       <Link
         href="/paycast"
-        className="col-span-1 mx-0 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30"
+        className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
-        <div className="p-3 rounded-md bg-bl_steel-charyo text-bl_steel-notpurp">
+        <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
           Paycast
         </div>
       </Link>

@@ -16,7 +16,7 @@ export default function TopBar() {
               Backpack
             </h1>
           </Link>
-          <Link href={"/storefront"}>
+          <Link href={"https://storefront.network"}>
             <h1 className="text-center self-center text-bl_steel-notpurp">
               Storefront
             </h1>
