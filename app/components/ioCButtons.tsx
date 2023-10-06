@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function LandingCButtons() {
+export default function IoCButtons() {
   return (
     <div className="grid grid-cols-1 grid-rows-4 px-20 gap-2 sm:grid-cols-2 sm:grid-rows-2 sm:gap-4 md:grid-cols-4  md:gap-4 ">
       <Link
@@ -8,31 +8,28 @@ export default function LandingCButtons() {
         className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          I/O Ramps
+          Buy USDC
         </div>
       </Link>
-      <Link
-        href="https://www.circle-jerk.me/"
-        className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
-      >
+      <div className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert opacity-50 cursor-not-allowed">
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Stable Swap
+          Sell USDC
         </div>
-      </Link>
+      </div>
       <Link
-        href="/otc"
+        href="/ioRamps"
         className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          OTC
+          Submit
         </div>
       </Link>
       <Link
-        href="/paycast"
+        href="/"
         className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Paycast
+          Cancel
         </div>
       </Link>
     </div>

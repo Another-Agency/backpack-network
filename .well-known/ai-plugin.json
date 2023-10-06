@@ -1,0 +1,17 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Backpack 🧠",
+  "name_for_model": "backpack_cms",
+  "description_for_human": "Backpack knowledge base",
+  "description_for_model": "Help the user by retrieving data from our Backpack knowledge base",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "http://localhost:3000/openapi.yaml"
+  },
+  "logo_url": "http://localhost:3000/favicon.ico",
+  "contact_email": "devin@jxndao.com",
+  "legal_info_url": "http://www.backpackack.network/smooth_brain"
+}
