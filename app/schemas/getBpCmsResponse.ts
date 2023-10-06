@@ -5,3 +5,5 @@
 // the plan is to use a chatgpt plugin to request chatg to fetch info from cms
 // the plugin will need to meet the criteria of Openai's plugin requirements
 // https://platform.openai.com/docs/plugins/getting-started/
+
+export {};
