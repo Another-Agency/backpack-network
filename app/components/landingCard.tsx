@@ -6,15 +6,15 @@ export default function LandingCard() {
           <div className="h-96 rounded-lg bg-vc-border-gradient shadow-lg shadow-black/40">
             <div className="h-96 rounded-lg border-bl_steel-charyo bg-bl_steel-graish overflow-auto">
               <div className="grid grid-cols-1 px-4 space-x-4">
-                <h1 className="p-4 pt-6 text-bl_steel-charyo font-semibold">
-                  What is Backpack?
-                </h1>
-                <p className=" text-bl_steel-charyo ">
-                  Backpack is a way to orchestrate your money. Self custody, so
-                  you are in control. Move your money how you need to, when you
-                  want to, crazy idea right?
+                <p className=" text-bl_steel-charyo pt-4 ">
+                  Imagine a world where managing your finances is as simple and
+                  instantaneous as sending a text message. With Backpack, that's
+                  not a dream—it's reality. Just like you don't need a post
+                  office to send a letter anymore, you don't need a traditional
+                  bank to manage your money. You're in control, sending,
+                  receiving, and investing your assets as effortlessly as you
+                  send a text.
                 </p>
-                <p className=" text-bl_steel-charyo">- more here</p>
                 <h1 className="p-4 pt-20 justify-center text-center text-bl_steel-charyo font-semibold">
                   ** MORE COMING SOON-ISH **
                 </h1>
