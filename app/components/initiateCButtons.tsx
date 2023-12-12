@@ -8,7 +8,7 @@ export default function LandingCButtons() {
         className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Initiate
+          One:One
         </div>
       </Link>
       <Link
@@ -16,7 +16,7 @@ export default function LandingCButtons() {
         className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Adjust
+          Multi-Party
         </div>
       </Link>
       <Link
@@ -24,7 +24,7 @@ export default function LandingCButtons() {
         className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Finalize
+          Subs & Streams
         </div>
       </Link>
       <Link
@@ -32,7 +32,7 @@ export default function LandingCButtons() {
         className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Events
+          Plugins
         </div>
       </Link>
     </div>
