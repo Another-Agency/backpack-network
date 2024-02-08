@@ -8,31 +8,31 @@ export default function LandingCButtons() {
         className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Initiate
+          USDC On-Ramp
         </div>
       </Link>
       <Link
         href="https://www.circle-jerk.me/"
-        className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
+        className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lgshadow-bl_steel-notpurp/30 hover:border-bl_steel-graish"
       >
-        <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Adjust
+        <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo hover:text-bl_steel-ualert">
+          USDC Off-Ramp
         </div>
       </Link>
       <Link
-        href="/otc"
-        className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
+        href="/"
+        className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30 hover:border-bl_steel-graish"
       >
-        <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Finalize
+        <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo text-opacity-25 hover:text-bl_steel-ualert">
+          History
         </div>
       </Link>
       <Link
-        href="/paycast"
+        href="https://polygonscan.com/"
         className="col-span-1 mx-0 pb-1.5 border-2 rounded-lg bg-vc-border-gradient shadow-lg shadow-bl_steel-notpurp/30 hover:border-bl_steel-ualert"
       >
         <div className="p-3 rounded-md bg-bl_steel-graish text-bl_steel-charyo">
-          Events
+          Block Explorer
         </div>
       </Link>
     </div>

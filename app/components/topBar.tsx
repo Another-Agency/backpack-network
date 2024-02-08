@@ -21,7 +21,7 @@ export default function TopBar() {
           </Link>
           <Link href={"https://storefront.network"}>
             <h1 className="text-center self-center text-bl_steel-notpurp">
-              Storefront
+              Pylon Dashboard
             </h1>
           </Link>
           <Link href={"https://pylon-api.readme.io/"}>
